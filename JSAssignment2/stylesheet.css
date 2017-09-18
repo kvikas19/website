@@ -1,0 +1,245 @@
+#left{
+	float: left;
+	background-color: rgb(218, 230, 241);
+	width:25%;
+	/*height:1000px;*/
+	border: 1px solid black;
+	text-align: center;
+}
+
+#right{
+	position: absolute;
+	left: 25.5%;
+	background-color: rgb(218, 230, 241);
+	width: 75%;
+	/*height:1000px;*/
+	border: 1px solid black;
+	text-align: center;
+}
+
+#tables{
+	font-weight: bold;
+	/*text-align: center;*/
+}
+
+#menu{
+	font-weight: bold;
+	/*text-align: center;*/
+}
+
+#left input{
+	box-shadow: rgba(0,0,0,0.2) 3px 3px;
+	width: 80%;
+	height: 25px;
+}
+
+#right input{
+	box-shadow: rgba(0,0,0,0.2) 3px 3px;
+	width:60%;
+	/*margin-left: 10%;*/
+	height: 25px;
+}
+
+.table{
+	text-align: left;
+	box-shadow: rgba(0,0,0,0.2) 3px 3px;
+	width: 90%;
+	background-color: #f7f6f6;
+	margin-top: 10px;
+	margin-left: 5%;
+	font-size: 20px;
+	height: 60px;
+}
+
+.items{
+	text-align: left;
+	box-shadow: rgba(0,0,0,0.2) 3px 3px;
+	width: 90%;
+	background-color: #f7f6f6;
+	margin-top: 10px;
+	margin-left: 5%;
+	font-size: 20px;
+	height: 60px;
+}
+
+.cost{
+margin-top: 6px;
+margin-bottom: 2px; 
+background-color: white;
+margin-left: 2%;
+pointer-events: none;
+
+}
+
+strong{
+	margin-left: 2%
+}
+
+#tableBox{
+	height: 100vh;
+	overflow: auto;
+}
+
+#itemBox{
+	height: 100vh;
+	overflow: auto;
+}
+
+#modal{
+	display:none;
+	top:0px;
+	right:0px;
+	position: fixed;
+	width:100%;
+	height:100%;
+	z-index:1;
+	background-color: rgba(0,0,0,.4);
+}
+
+#inner{
+	width:40%;
+	/*height: 50%;*/
+	position: relative;
+	top:20%;
+	left:30%;
+	border: 2px solid #b7acac;
+	background-color: #d9ded9;
+}
+
+
+#innerBill{
+	display: none;
+	width:40%;
+	/*height: 50%;*/
+	position: relative;
+	top:20%;
+	left:30%;
+	border: 2px solid #b7acac;
+	background-color: #d9ded9;
+}
+
+#top{
+	width: 100%;
+	height:20%;
+	background-color: #3d4eae;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#topBill{
+	width: 100%;
+	height:20%;
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid black;
+}
+
+#bottom{
+	width: 100%;
+	background-color: #fdfdfd;
+}
+
+#bottomBill{
+	width: 100%;
+	background-color: white;
+	border: 1px solid black;
+}
+
+#close{
+	display: inline;
+	position: relative;
+	top:20%;
+	width:5%;
+	left: 48%;
+	background-color: #3d4eae;
+	color: white;
+	font-size: 25px;
+	border: 0px;
+}
+
+#closeBill{
+	display: inline;
+	position: relative;
+	top:20%;
+	width:5%;
+	left: 48%;
+	background-color: white;
+	color: black;
+	font-size: 25px;
+	border: 0px;
+}
+
+#bill{
+	display: inline;
+	margin:0px;
+	width: 80%;
+	position: relative;
+	top:20%;
+	width:5%;
+	left: 1%;
+	background-color: #3d4eae;
+	color: white;
+	font-size: 22px;
+	border: 0px;
+}
+
+#billFinal{
+	display: inline;
+	margin:0px;
+	width: 80%;
+	position: relative;
+	top:20%;
+	width:5%;
+	left: 1%;
+	background-color: white;
+	color: black;
+	font-size: 22px;
+	border: 0px;
+}
+
+
+.img{
+	/*background-color: black;*/
+	margin-top:10%;
+	width: 15px;
+	height: 15px;
+	margin-left: 50%;
+}
+
+.head{
+	font-weight: bold;
+	width: 50px;
+}
+
+#tab{
+	/*margin-left: 2%;*/
+	width: 100%;
+}
+
+.sno{
+	/*text-align: center;*/
+}
+
+.finalCost{
+	text-align: right;
+}
+
+#print{
+	width: 13px;
+	height: 13px;
+}
+
+#billName{
+	text-align: center;
+	font-size:30px;
+	text-decoration: underline;
+	background-color: white;
+	border: 1px solid black;
+	width: 100%;
+
+}
+
+#lastRowBill{
+	border: 1px solid black;
+}

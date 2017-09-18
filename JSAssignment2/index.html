@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>PrasoonRestaurant</title>
+	</head>
+	<body onload="showPage()">
+		<div id="left" class="res">
+			<div id="tables">Tables</div>
+			<input  id="searchOne" type="text" name="tableNo" onkeyup="searchTable()" placeholder="Search table">
+			<div id="tableBox"></div>
+		</div>
+		<div id="right" class="res">
+			<div id="menu">Menu</div>
+			<input id="searchTwo" type="text" name="foodItem" onkeyup="searchFood()" placeholder="Search menu... by food,by course (starter,main course, breads, desserts)">
+			<div id="itemBox"></div>
+		</div>
+
+		<div id="modal">
+			<div id="inner">
+				<div id="top"></div>
+				<div id="bottom"></div>
+			</div>
+
+			<div id="innerBill">
+				<div id ="billName">Prasoon's Restaurant</div>
+				<div id="topBill"></div>
+				<div id="bottomBill"></div>
+			</div>
+
+		</div>
+
+
+		<script src="items.json" type="text/javascript"></script>
+		<script src="tables.json" type="text/javascript"></script>
+		<script src="script.js" type="text/javascript"></script>
+	</body>
+</html>
