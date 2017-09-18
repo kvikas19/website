@@ -314,7 +314,7 @@ function showBill(table){
 	function billCost(){
 		var sumPrice=0;
 		for( var r=0;r<array.length;r++){
-			if(document.getElementsByClassName('inp')[r].value<0){
+			if(document.getElementsByClassName('inp')[r].value<=0){
 			document.getElementsByClassName('inp')[r].value=0;
 			}
 		sumPrice +=(getPrice(r+1)*document.getElementsByClassName('inp')[r].value);

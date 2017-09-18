@@ -5,6 +5,7 @@
 	/*height:1000px;*/
 	border: 1px solid black;
 	text-align: center;
+	user-select: none;
 }
 
 #right{
@@ -15,6 +16,7 @@
 	/*height:1000px;*/
 	border: 1px solid black;
 	text-align: center;
+	user-select: none;
 }
 
 #tables{
@@ -49,6 +51,7 @@
 	margin-left: 5%;
 	font-size: 20px;
 	height: 60px;
+	user-select: none;
 }
 
 .items{
@@ -60,6 +63,7 @@
 	margin-left: 5%;
 	font-size: 20px;
 	height: 60px;
+	user-select: none;
 }
 
 .cost{
