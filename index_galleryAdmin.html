@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="galleryAdmin_stylesheet.css"/>
+		<title>Gallery admin</title>
+	</head>
+	<body onload="showImages()">
+		<div id="header">
+			<p>Gallery Admin</p>
+		</div>
+		<h1> </h1>
+		<p> Gallery of some of the comic characters </p>
+		<button type="button" onclick="showForm()">Click to add Image</button>
+		<div id="modal">
+			<form id="inputForm" name="myform">
+				<div><div id="boxTop" class="shift">Image Name: </div>
+					<input class="shift" id="name" type="text" name="name" required placeholder="name">
+				</div>
+				<div><div class="shift">URL:</div>
+					<input class="shift" id="url" type="text" name="url" required placeholder="https://abcd.jpg">
+				</div>
+				<div><div class="shift">Information:</div>
+				<input class="shift" id="info" type="text" name="info" required placeholder="info">
+				</div>
+				<div><div class="shift">Upload date </div>
+					<input class="shift" id="date" type="text" name="date" required placeholder="dd/mm/yyyy">
+				</div>
+				<div class="shift" id="submitDiv">
+					<!-- <button id="submit" type="button" onclick="addImage()">Submit</button> -->
+				</div>
+			</form>
+			<button id="close" type="button" onclick="hideForm()">X</button>
+		</div>
+		<div id="content"></div>
+		<p></p>
+		<div ><a href="index.html"> BACK<< </a></div>
+		
+		<script src="galleryAdmin_image.json" type="text/javascript"></script>
+		<script src="script_galleryAdmin.js" type="text/javascript"></script>
+	</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link type="text/css" rel="stylesheet" href="mypage_stylesheet.css"/>
+	<title>Prasoon's Webpage</title>
+</head>
+<body onload="showImages()">
+	<div id="header">
+	<h2>My Webpage</h2>
+	</div>
+	<div id="navbar">
+		<ul>
+			<li> 
+				<a href="#home">Home</a>
+			</li>
+			<li>
+				<a href="#about">About Me</a>
+			</li>
+			<li>
+				<a href="#gallery">My Gallery</a>
+			</li>
+			<li>
+				<a href="#contact">Contact Me</a>
+			</li>
+			<li>
+				<a href="index_galleryAdmin.html">Gallery admin</a>
+			</li>
+		</ul>
+	</div>
+
+	<div id="home" class="box">
+		<p class="boxfont">Home</p>
+	</div>
+	<h1> Welcome All!!!</h1>
+	<p> This is the first web page i have made </p>
+
+	<div id="about" class="box">
+		<p class="boxfont">About Me</p>
+	</div>
+	<h1> </h1>
+	<p> Hey this is Prasoon Kirar I have completed my dual degree course from IIT kharagpur.</p>
+	<p> I works at ZeMoSo Technologies</p>
+
+	<div id="gallery" class="box">
+		<p class="boxfont">Gallery</p>
+	</div>
+	<h1> </h1>
+	<p> Gallery of some of the comic characters </p>
+
+	<table id="table">
+		<th colspan="3">Heroes</th>
+		<tr>
+			<td><img id="top_left" /></td>
+			<td><img /></td>
+			<td><img id="top_right" /></td>
+		</tr>
+		<tr>
+			<td><img /></td>
+			<td><img /></td>
+			<td><img /></td>
+		</tr>
+		<tr>
+			<td><img id="bottom_left" /></td>
+			<td><img /></td>
+			<td><img id="bottom_right" /></td>
+		</tr>
+	</table>
+
+	<div id="contact" class="box">
+		<p class="boxfont">Contact me</p>
+	</div>
+
+	<h1> 
+		Contact:</h1>
+		<p>Prasoon Kirar</p> 
+		<p>A-327 NFL township</p> 
+		<p>Vijaipur Guna MP- 473111</p>
+
+		<div id="form">
+		<form name="myform" onsubmit="return validateform()">
+			<div>
+				Name: <input id="name" type="text" name="name" required placeholder="name">
+				Mail: <input id="email" type="email" required name="email" placeholder="pqrs@xyz.com">
+			</div>
+			<div>
+				Message: <input id="message" type="text" name="message" required placeholder="message">
+			</div>
+			<div>
+			<input id="submit" type="submit" value="Submit">
+			</div>
+		</form>
+		</div>
+		<a href="#header" id="top">Top</a>
+
+		<script src="table_Image.json" type="text/javascript"></script>
+		<script src="script_mainpage.js" type="text/javascript"></script>
+	</body>
+	</html>
